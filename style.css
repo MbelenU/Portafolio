@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.div_header{
+display:flex;
+}
+
+.div_header_nav{
+width: 100%;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+}
+
+.div_header_nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.div_header_nav ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:  #464646;
+}
+
+.div_presentacion{
+    display: flex;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body, .seccion-perfil-usuario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-perfil-usuario .perfil-usuario-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#B873FF, transparent);
+    margin-bottom: 1.25rem;
+}
+
+.seccion-perfil-usuario .perfil-usuario-portada {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 17rem;
+    background-image: linear-gradient(45deg, #BC3CFF, #317FFF);
+    border-radius: 0 0 20px 20px;
+}
+
+.seccion-perfil-usuario .perfil-usuario-portada .boton-portada {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: 0;
+    border-radius: 8px;
+    padding: 12px 25px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    cursor: pointer;
+}
+
+.seccion-perfil-usuario .perfil-usuario-portada .boton-portada i {
+    margin-right: 1rem;
+}
+
+.seccion-perfil-usuario .perfil-usuario-avatar {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid #FFFFFF;
+    background-color: #DFE5F2;
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 90px);
+    z-index: 1;
+}
+
+.seccion-perfil-usuario .perfil-usuario-avatar img {
+    width: 100%;
+    position: relative;
+    border-radius: 50%;
+}
+
+.seccion-perfil-usuario .perfil-usuario-avatar .boton-avatar {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body {
+    width: 70%;
+    position: relative;
+    max-width: 750px;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body .titulo {
+    display: block;
+    width: 100%;
+    font-size: 1.75em;
+    margin-bottom: 0.5rem;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body .texto {
+    color: #848484;
+    font-size: 1.20em;
+   text-align: center;
+}
+
+.seccion-perfil-usuario .perfil-usuario-footer, .seccion-perfil-usuario .perfil-usuario-bio {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.seccion-perfil-usuario .perfil-usuario-bio {
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.seccion-perfil-usuario .lista-datos {
+    width: 50%;
+    list-style: none;
+}
+
+.seccion-perfil-usuario .lista-datos li {
+    padding: 5px 0;
+    width: 50px;
+height: 19px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Preto/100% */
+
+color: #464646;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+
+
+
+.div_presentacion_texto{
+width: 100%;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+}
+
+.div_presentacion_texto ul {
+    list-style-type: none;  
+    text-align: center;
+}
+
+.div_presentacion_texto ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+.contenido_hobbies_texto{
+ position: relative;
+ left:20%; 
+ display: flex;
+ flex-wrap: wrap ;  
+}
+
+.div_presentacion_img{
+width: 60%;
+text-align: right;
+align-self: center;
+}
+
+.imgphoto{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
+
+.div_sobremi{
+    background-color: #F3DFEB ;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+    
+    
+}
+.div_sobremi_texto{
+   width: 500px;
+   height: 150px;
+   align-self: center;
+   text-align: justify;
+   position: relative;
+   left:12%;
+}
+
+.div_skillyhobbies{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+}
+
+.div_skills,.div_hobbies{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    left:2%; 
+    font-family: 'Raleway';
+font-style: normal;
+
+}
+.skills,.hobbies{
+   width: 200px;
+   height: 180px;
+   background-color: white;
+   margin-left: 20px;
+   margin-bottom: 15px;
+   text-align: center;
+
+}
+
+.skills i{
+ font-size: 50px;
+ color: #2A7AE4; 
+}
+.skills p,i{
+    position: relative;
+    top: 50%;
+}
+.hobbies i{
+ font-size: 50px;
+ color: #2A7AE4; 
+}
+.hobbies p,i{
+    position: relative;
+    top: 50%;
+}
+
+.div_educacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3DFEB ;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+
+}
+
+.div_educacion_escuela{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin-top: 5%;
+}
+
+.div_educacion_escuela img{
+    width: 250px;
+    height: 250px;
+}
+
+.div_experiencias{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+text-align: center;
+}
+
+.div_experiencia_uno{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+
+
+}
+
+.div_experiencia_uno_texto{
+   align-self: center;
+}
+
+.div_experiencia_uno_img img{
+    width: 600px;
+    height: 400px;
+}
+.div_experiencia_dos_texto{
+   align-self: center;
+}
+
+
+
+.div_experiencia_dos_img img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.div_formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #F3DFEB ;
+    
+}
+
+
+
+.div_formulario_img img{
+    width: 60%;
+    height: 70%;
+    margin-top: 20%; 
+    margin-left: 30%;   
+}
+
+.div_formulario_contacto{
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+input:hover{
+    border: 1px solid #2A7AE4;
+}
+
+input::placeholder{
+    position: relative;
+    bottom: 10px;
+}
+
+textarea{
+    display: block;
+    width: 80%;
+    height: 110px;
+    margin-top: 20px;
+    outline: none;
+    resize: none;
+}
+
+textarea:hover{
+    border: 1px solid #2A7AE4; 
+}
+
+.btnenviar{
+    display: block;
+    margin-top: 20px;
+    background-color: #9963D2;
+    font-family: 'Raleway';
+font-style: normal;
+    color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+    border: 4px solid #2A7AE4; 
+    border-radius: 20px;
+ }
+    
+.div_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.div_footer_texto{
+    text-align: center;
+}
+.div_footer .p_footer{
+    position: relative;
+    bottom: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+   .div_header_nav{
+    display: none;
+   } 
+
+   .div_presentacion{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .div_presentacion_texto,.div_presentacion_img{
+    width: 95%;
+   }
+   .contenido_hobbies_texto{
+    left: auto;
+    justify-content: center;
+   }
+   
+   .div_sobremi{
+    justify-content: center;
+   }
+   .div_sobremi_texto{
+   left: auto;
+    
+   }
+   .div_experiencia_uno_img img{
+    width: 540px;
+   }
+
+   .div_formulario_img{
+    display: none;
+   }
+  
+   .div_formulario_contacto{
+    display: flex;
+    flex-direction: column;
+   }
+
+   input,textarea,button{
+   width: 50%;
+   }
+
+
+  }
